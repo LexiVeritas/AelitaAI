@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "aelita",
+	"version": "${version}",
+	"name": "Aelita",
+	"description": "AI Companion Entity Mod",
+	"authors": [
+		"Lexi"
+	],
+	"contact": {},
+	"license": "CC0-1.0",
+	"icon": "assets/aelita/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"aelita.aifriend.Aelita"
+		],
+		"client": [
+			"aelita.aifriend.client.AelitaClient"
+		],
+		"fabric-datagen": [
+			"aelita.aifriend.client.AelitaDataGenerator"
+		]
+	},
+	"mixins": [
+		"aelita.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

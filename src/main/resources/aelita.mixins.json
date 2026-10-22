@@ -1,0 +1,10 @@
+{
+	"required": true,
+	"package": "aelita.aifriend.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [],
+	"client": [],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
